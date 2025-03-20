@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate, Link } from "react-router-dom"; // Added Link import
+import { useNavigate, Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { adminSignIn } from "../../../redux/actions/adminActions";
 import VisibilityIcon from "@mui/icons-material/Visibility";
@@ -123,7 +123,12 @@ const AdminLogin = () => {
               {error.usernameError || error.passwordError}
             </p>
           )}
-          
+          <button
+            onClick={() => navigate(-1)}
+            className="mt-4 w-32 bg-gray-500 hover:scale-105 transition-all duration-150 rounded-lg flex items-center justify-center text-white text-base py-1"
+          >
+            Back
+          </button>
         </form>
       </div>
     </div>

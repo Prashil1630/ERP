@@ -6,7 +6,7 @@ const Login = () => {
     <div
       className="h-screen w-screen backdrop-blur-md flex justify-center"
       style={{
-        // backgroundImage: url("https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"),
+        // backgroundImage: url("https://www.bing.com/images/search?view=detailV2&id=C8553B1F844D6B530FCF28D9036875810617F2A6&thid=OIP.XNrCK4gcsIUxTvKbkrHs4gHaE8&mediaurl=https%3a%2f%2fcache.careers360.mobi%2fmedia%2fpresets%2f720X480%2fcolleges%2fsocial-media%2fmedia-gallery%2f1788%2f2018%2f2%2f19%2fMIT-WPU2.jpg&exph=480&expw=720&q=mit+wpu+pune+campus&simid=608019210970006854&ck=0EE41176E2A2DAAE5160B0D803DB14AF&itb=0&FORM=IVCLIG"),
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
         backgroundSize: "cover",

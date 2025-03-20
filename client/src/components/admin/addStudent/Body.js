@@ -275,7 +275,7 @@ const Body = () => {
 
                   <input
                     required
-                    placeholder="Father's Contact Number"
+                    placeholder="Mother's Contact Number"
                     className={classes.adminInput}
                     type="number"
                     value={value.motherContactNumber}
